@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #EEE;
+}
+.myconainer{
+    margin: 0 auto;
+    background-color: #E4F9F5;
+    max-width: 1000px;
+    padding: 10px;
+}
+.myimg{
+    height: 150px;
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid white;
+    float: left;
+}
+.my-title{
+    float: left;
+    margin-top: 30px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    margin-left: 400px;
+    padding: 5px;
+
+}
+a:hover{
+    color: tomato;
+}
+.div-clr{
+    clear: both;
+}
+.hr-line{
+    border: 2px solid black;
+    border-bottom: none;
+    margin: 10px 0px;
+}
+.my-contact{
+    padding: 10px;
+    line-height: 1.5;
+}
+.rt{
+    float: left;
+    width: 30%;
+}
+.lt{
+    float: right;
+    width: 70%;
+
+}
+.div-body{
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px black;
+}
+.div-body:hover{
+    box-shadow: 4px 6px 10px yellow;
+}
