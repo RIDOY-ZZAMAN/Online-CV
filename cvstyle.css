@@ -6,6 +6,7 @@ body{
     background-color: #EEE;
     font-family: 'Roboto', sans-serif;
 
+
 }
 .container{
     max-width: 1000px;
@@ -15,10 +16,11 @@ body{
 }
 .profile-image{
     height: 100px;
-    width: 120px;
+    width: 100px;
     border: 3px solid white;
     border-radius: 50%;
     float: left;
+    margin-top: 20px;
 }
 .header-bio{
 float: left;
@@ -33,11 +35,19 @@ h1,h2,h3,h4,h5,h6{
     float: right;
 
 }
+.header-contact p{
+    margin-top: 10px;
+}
 .header-contact a{
     text-decoration:none;
     color: teal;
     font-weight: bold;
     padding-left: 30px;
+}
+ul li{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .header-contact a:hover{
     text-decoration: underline;
@@ -79,13 +89,29 @@ hr{
     float: right;
     width: 45%;
 }
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.projects a{
+    margin-top: 10px;
+    margin-right: 5px;
+}
 .foter{
     background-color: black;
     color: white;
     text-align: center;
-    height: 70px;
+    
+    padding: 30px;
 }
 .foter a{
     margin: 20px;
     color: white;
+    text-decoration: none;
+   
 }
+
+html {
+    scroll-padding-top: 115px;
+  }
+
